@@ -41,7 +41,6 @@ var server = http.createServer(function(req,res){
 
         // Log the request path
         console.log('Request received with this payload: ', buffer);
-        console.log(' and the query object is ',queryStringObject)
     })
 });
 
