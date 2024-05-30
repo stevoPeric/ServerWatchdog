@@ -41,11 +41,34 @@ var server = http.createServer(function(req,res){
 
         // Log the request path
         console.log('Request received with this payload: ', buffer);
-    })
+    });
 });
 
 
 // Start the server, and ahve it listen on port 3000
 server.listen(3000,function(){
     console.log('The server is listening on port 3000 now');
-})
+});
+// Define the handlers
+var handlers = {};
+
+// Sample handlers
+handlers.sample = functio(data,callback){
+
+};
+
+// Not Found Handler
+handlers.notFound = function(data,callback){
+
+};
+
+// Define a request router
+var router = {
+    'sample' : handlers.sample
+
+}
+// Define a request router
+var router = {
+    'sample' : handlers.sample
+
+}
