@@ -67,8 +67,3 @@ var router = {
     'sample' : handlers.sample
 
 }
-// Define a request router
-var router = {
-    'sample' : handlers.sample
-
-}
