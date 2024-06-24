@@ -53,19 +53,3 @@ server.listen(3000,function(){
 var handlers = {
     
 };
-
-// Sample handlers
-handlers.sample = functio(data,callback){
-
-};
-
-// Not Found Handler
-handlers.notFound = function(data,callback){
-
-};
-
-// Define a request router
-var router = {
-    'sample' : handlers.sample
-
-}
